@@ -1,0 +1,18 @@
+[workspace]
+members = [
+    "pallets/nova_token",
+    "pallets/sentience",
+    "pallets/memorylog"
+]
+
+[package]
+name = "novachain"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+frame-support = { version = "4.0.0-dev", default-features = false }
+frame-system = { version = "4.0.0-dev", default-features = false }
+sp-runtime = { version = "4.0.0-dev", default-features = false }
+sp-std = { version = "4.0.0-dev", default-features = false }
+sp-core = { version = "4.0.0-dev", default-features = false }
